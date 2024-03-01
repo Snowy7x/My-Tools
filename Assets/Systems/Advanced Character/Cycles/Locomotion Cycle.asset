@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f56b16dc38430bbb1fa3006008023b, type: 3}
+  m_Name: Locomotion Cycle
+  m_EditorClassIdentifier: 
+  idle:
+    stateName: Idle
+    animationClip: {fileID: -203655887218126122, guid: 4e4263e3217fd334cac0df0b78ee23a1,
+      type: 3}
+    loop: 1
+    animationSpeed: 1
+    animationLayer: 0
+    animationTransitionTime: 0.15
+  walk:
+    stateName: Walk
+    animationClip: {fileID: -203655887218126122, guid: f6f787c35af5aa146a33f3a529a03f70,
+      type: 3}
+    loop: 1
+    animationSpeed: 1
+    animationLayer: 0
+    animationTransitionTime: 0.05
+  run:
+    stateName: Run
+    animationClip: {fileID: -203655887218126122, guid: f6f787c35af5aa146a33f3a529a03f70,
+      type: 3}
+    loop: 1
+    animationSpeed: 2
+    animationLayer: 0
+    animationTransitionTime: 0.05
+  jump:
+    stateName: Jump
+    animationClip: {fileID: 0}
+    loop: 1
+    animationSpeed: 1
+    animationLayer: 0
+    animationTransitionTime: 0.15
+  fall:
+    stateName: Fall
+    animationClip: {fileID: 0}
+    loop: 1
+    animationSpeed: 1
+    animationLayer: 0
+    animationTransitionTime: 0.15
+  nameReadOnly: 1
